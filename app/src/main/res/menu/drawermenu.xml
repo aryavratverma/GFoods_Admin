@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/db1"
+            android:title="Add Item"
+            android:icon="@drawable/ic_add_circle_outline_black_24dp"></item>
+        <item android:id="@+id/db2"
+             android:title="Remove Item"
+             android:icon="@drawable/ic_remove_circle_black_24dp"></item>
+        <item android:id="@+id/db3"
+            android:title="Update Price"
+            android:icon="@drawable/ic_update_black_24dp"></item>
+        <item android:id="@+id/db5"
+        android:title="Logout"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"></item>
+    </group>
+
+
+</menu>
